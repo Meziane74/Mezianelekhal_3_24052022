@@ -253,7 +253,8 @@ footer p {
 .menu-item {
     display: flex;
     overflow: hidden;    
-   
+   white-space: nowrap;
+   text-overflow: ellipsis;
 }
 
 

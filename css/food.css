@@ -191,6 +191,11 @@ footer p {
 }
 
 /* COMMANDEZ */
+.commander{
+    display: grid;
+    place-items: center;
+}
+
 .commander button {
     background-image: linear-gradient(to top, #9356dc, #ff79da);
     color: white;
@@ -199,6 +204,12 @@ footer p {
     border: none;
     border-radius: 2rem;
     box-shadow: 0px 4px 3px 0px rgba(0, 0, 255, 0.2);
+    cursor: pointer;
+    
+}
+.commander button:hover{
+    transform: scale(1,1.2);
+    opacity: 0.9;
 }
 
 /* RESTAURANT 1 */
@@ -242,6 +253,22 @@ footer p {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 
+}
+
+.menus h3 {
+text-transform: uppercase;
+font-weight: 400;
+position: relative;
+/* h3 ::after {
+    content: "";
+    position: absolute;
+    height: 0.25rem;
+    width : 1.25rem;
+    background-color: #99e2d0;
+    top: 1.5rem;
+    left: 0;
+    width : 3;
+} */
 }
 
 .menus__category {

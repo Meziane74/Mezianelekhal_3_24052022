@@ -14,6 +14,7 @@ img {
 body {
     margin: 0px;
     font-family: "Roboto", "sans-serif";
+    background-color: whitesmoke;
 }
 
 header {
@@ -228,15 +229,6 @@ footer p {
     display: block;
 }
 
-.menus-grid {
-
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-        
-}
-
 .resto-main {
     padding: 2rem;
 
@@ -244,8 +236,74 @@ footer p {
 
 
 
+.menus {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+} 
+
+.menus__category {
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.menu-item {
+    display: flex;
+    overflow: hidden;    
+   
+}
+
+
+.menu-item__price {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    font-weight: 900;
+    padding: 1rem; 
+   
+}
+
+
+.menu-item__description {
+    padding: 1rem;
+}
+
+.menu-item__check {
+     border-radius: 0 1rem 1rem 0;
+     background-color: #99e2d0;
+    margin-right: -3rem;
+    width: 3rem;
+   transition: 0.5s;
+   box-shadow: 2px 2px 2px 2px rgba(242, 241, 241, 0.543);
+   display: grid;
+   place-items: center;
+
+ animation: rotate 1s ease-in-out;
+ @keyframes rotate{
+        from { transform: rotate (-90deg);}
+        to { transform: rotate (0);}
+    }
+}
+
+.menu-item__check i {
+    filter: invert(1);
+    font-size: 1.3rem;
+   }
+
+
+.menu-item__check:hover{
+    margin-right: 0;
+
+}
+
 
 
 
 @media (max-width: 1000px) {
-    .menus-grid{grid-template-columns: 1fr;}
+    .menus {
+        grid-template-columns: 1fr;
+    }
+}

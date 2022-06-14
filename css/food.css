@@ -9,11 +9,11 @@
 /* NAVBAR */
 
 header::before {
-    
+    cursor: pointer;
     display: inline-block;
 
      position: absolute;
-     
+     font-size: 20px;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -23,11 +23,11 @@ header::before {
 
     content:"\f060";
     width: 2rem;
-    height: 2rem;
+  
     color: black;
     left: 1rem;
    top: 50%;
-   transform: translateY(-30%)
+   transform: translateY(-50%)
 }
 
 img {

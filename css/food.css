@@ -30,6 +30,11 @@
    transform: translateY(-50%)
 } */
 
+
+
+
+
+
 img {
     margin-top: 10px;
     width: 12rem;
@@ -154,6 +159,8 @@ main .city i {
 
 /*RESTAURANTS*/
 
+
+
 .restaurants {
     padding: 0;
     margin-bottom: 2rem;
@@ -262,7 +269,21 @@ section.order {
     opacity: 0.9;
 }
 
-/* RESTAURANT 1 */
+/* RESTAURANT PAGES */
+
+header .cursor_index{
+   
+    cursor: pointer;
+    position: absolute;
+    left: 1rem;
+    width: 15px;
+   text-align: left;
+ font-size: 1.5rem;
+   font-family: FontAwesome;
+   top: 50%;
+   transform: translateY(-50%);
+    } 
+
 
 .resto__title {
     padding: 0 1rem;

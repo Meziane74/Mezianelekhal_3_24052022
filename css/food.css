@@ -217,6 +217,43 @@ h3 {
     justify-content: space-between;
 }
 
+/* HEART */
+
+.heart {
+    padding: 1rem;
+    font-size: 21px;
+
+}
+
+.heart i {
+transform: translateY(-20%);
+
+color: #000000;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right : 1em;
+    transition: all .4s ease-in-out;
+}
+
+
+
+    .heart i:hover {
+        background: linear-gradient(#9356DC, #FF79DA);
+        color: #fff;
+        
+        font-weight: 600;
+        transform: scale(1.2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+
+
+
+
+
 * FOOTER */ footer {
     background-color: #353535;
     color: white;
@@ -234,10 +271,7 @@ footer p {
     font-family: "shrikhand";
 }
 
-.heart {
-    padding: 1rem;
-    font-size: 21px;
-}
+
 
 /* COMMANDEZ */
 section.order {
@@ -272,7 +306,7 @@ section.order {
 /* RESTAURANT PAGES */
 
 header .cursor_index{
-   
+   color: #000000;
     cursor: pointer;
     position: absolute;
     left: 1rem;
@@ -281,8 +315,14 @@ header .cursor_index{
  font-size: 1.5rem;
    font-family: FontAwesome;
    top: 50%;
-   transform: translateY(-50%);
-    } 
+   transform: translateY(-50%); }
+
+   /* transition: all .2s ease-in; */
+    /* } 
+
+    header .cursor_index:hover {
+        transform: scale(1.1);
+    } */
 
 
 .resto__title {

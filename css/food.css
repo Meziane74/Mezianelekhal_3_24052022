@@ -266,6 +266,8 @@ p .degustez{
 
 /*RESTAURANTS*/
 
+
+
 .restaurants h2{
     padding-top: 70px;
     padding-bottom: 25px;
@@ -449,19 +451,32 @@ header .cursor_index {
 }
 
 
-.resto__title {
-    padding: 0 1rem;
+
+
+.resto__title  {
+    
+    display: flex;
+    align-items: center;
+
+    font-family: "shrikhand", "sans-serif";
+    /* padding: 2rem 1rem; 
+    position: relative;*/
+    /* padding-right:16px ; */
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    /* margin: -1rem;*/
+    margin-top: -3.2rem; 
 }
 
-.resto__title h2 {
-    font-family: "shrikhand", "sans-serif";
-    padding: 2rem 1rem;
-    position: relative;
-    background-color: white;
-    border-radius: 2rem 2rem 0 0;
-    margin: -1rem;
-    margin-top: -2rem;
+
+.resto__title i {
+ margin-right: 10px;
+ padding-bottom: 50px;
 }
+
 
 .header h1 {
     font-family: "shrikhand", "sans-serif";
@@ -752,9 +767,7 @@ h2 {
     margin: 0 auto;
   
 } 
- body {
-    /* background-color: red */
- }
+
 
         .menus  {
             display: flex;

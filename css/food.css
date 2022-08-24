@@ -126,8 +126,6 @@ header {
 }
 
 
-
-
 .fonctionnement , .restaurants{ 
     padding-left:30px ;
     padding-right: 20px;
@@ -251,15 +249,49 @@ main .city i {
 }
 
 
-/* .fonctionnement_menu .p:hover{
-    transform: scale(1.20);
+
+#fonctionnement_menu .choisissez:hover {
+    transform: scale(1.01);
     opacity: 0.9;
-} */
-
-
-p .degustez{
- background-color:#ff79da21 ;
+    background-color: #d0baec;
 }
+
+
+#fonctionnement_menu .choisissez:hover .fa-mobile-alt {
+    color: #7909a5;
+   
+}
+
+
+
+#fonctionnement_menu .composez:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+    background-color: #d0baec;
+}
+
+
+#fonctionnement_menu .composez:hover .fa-list {
+    color: #7909a5;
+   
+}
+
+#fonctionnement_menu .degustez:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+    background-color: #d0baec;
+}
+
+
+#fonctionnement_menu .degustez:hover .fa-store {
+    color: #7909a5;
+   
+}
+
+
+
+
+
 
 
 
@@ -762,7 +794,7 @@ h2 {
 
     /* BUREAU */
       @media (min-width: 1200px){
-.resto-main , .resto__title {
+.resto-main {
     max-width: 1200px;
     margin: 0 auto;
   

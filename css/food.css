@@ -300,7 +300,7 @@ main .city i {
 /*RESTAURANTS*/
 
 .restaurants {
-    
+
     padding: 0;
     margin-bottom: 2rem;
     margin-left: 0;
@@ -425,7 +425,7 @@ h3 {
 footer {
     background-color: #353535;
     color: white;
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     padding-left: 1.5rem;
     /* position: absolute;
     width: 100%;
@@ -589,6 +589,7 @@ header .cursor_index {
 }
 
 .menu-item {
+    
     box-shadow: 2px 1px 8px -3px #000000;
     display: flex;
     background-color: white;
@@ -596,12 +597,9 @@ header .cursor_index {
     justify-content: space-between;
     animation: appear 3s;
     animation-delay: 0.1s;
-
-
-
-
     /* box-shadow: #353535; */
-
+    overflow: hidden;
+    margin: 0.5rem;
 
 }
 
@@ -646,7 +644,7 @@ p {
 
 
 .menu-item:hover>.priceandcheck {
-    right: 50px;
+    right: 48px;
 
 }
 

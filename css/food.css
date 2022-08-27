@@ -102,7 +102,7 @@ a {
 
 
 img {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 12rem;
 
 }
@@ -120,7 +120,7 @@ header {
 
     text-align: center;
     box-shadow: 0px 4px 3px 0px rgba(0, 0, 255, 0.2);
-    padding: 0.3rem;
+    padding: 1.3rem;
     margin: 0;
     position: relative;
 }
@@ -231,8 +231,13 @@ main .city i {
 #fonctionnement_menu .numero,
 #fonctionnement_menu i {
     margin-right: 1.5rem;
-
 }
+
+
+#fonctionnement_menu i {
+    color: #696868;
+}
+
 
 #fonctionnement_menu .numero {
     display: flex;
@@ -348,6 +353,7 @@ main .city i {
     flex: 100%;
     color: inherit;
     width: 100%;
+   background-color: #f7f4f4;
 }
 
 
@@ -442,11 +448,12 @@ footer p {
 }
 
 .order button {
+    margin: 3rem;
     cursor: pointer;
     background-image: linear-gradient(to top, #9356dc, #ff79da);
     color: white;
     font-size: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     border: none;
     border-radius: 2rem;
     box-shadow: 0px 4px 3px 0px rgba(0, 0, 255, 0.2);
@@ -493,7 +500,7 @@ header .cursor_index {
     position: absolute;
     height: 80px;
     width: 100%;
-    background-color: white;
+    background-color: #f7f4f4;
     border-radius: 50px 50px 0 0;
     /* margin: -1rem;*/
     margin-top: -3.2rem; 
@@ -527,6 +534,7 @@ header .cursor_index {
 }
 
 .resto-main {
+    
     padding: 2rem;
 
 }
@@ -535,8 +543,11 @@ header .cursor_index {
 
 .menus {
 
-    gap: 1rem;
-
+    /* background-color: #f6f6f6; */
+    
+    
+   
+    margin-bottom: -30px;
 }
 
 
@@ -565,7 +576,6 @@ header .cursor_index {
 .menus__category {
 
     border-radius: 1rem;
-    background-color: white;
     overflow: hidden;
     margin: 0.3rem;
     white-space: nowrap;
@@ -586,6 +596,7 @@ header .cursor_index {
     justify-content: space-between;
     animation: appear 3s;
     animation-delay: 0.1s;
+
 
 
 
@@ -617,6 +628,7 @@ p {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 60%;
+    font-weight: 100;
     /* à verifier */
 }
 
@@ -626,7 +638,11 @@ p {
     /* margin-left: auto; */
     font-weight: 900;
     padding: 1rem;
+     width: 30px;
+    height: 30px;
 }
+
+
 
 
 .menu-item:hover>.priceandcheck {
@@ -658,13 +674,7 @@ p {
 
 }
 
-.menu-item__price {
-    display: block;
-    width: 30px;
-    height: 30px;
 
-
-}
 
 .fa-check-circle {
     display: block;
@@ -703,7 +713,7 @@ p {
 @keyframes appear {
 
     0% {
-        transform: translateY(-50%);
+        transform: translateY(50%);
         opacity: 0;
     }
 

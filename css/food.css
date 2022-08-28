@@ -8,33 +8,10 @@
 
 
 
-/* NAVBAR */
 
-/* header::before {
-    cursor: pointer;
-    display: inline-block;
+/* LOADER */
 
-     position: absolute;
-     font-size: 20px;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-
-    content:"\f060";
-    width: 2rem;
-  
-    color: black;
-    left: 1rem;
-   top: 50%;
-   transform: translateY(-50%)
-} */
-
-
-
-/* .loader {
+.loader {
     position: fixed;
     background-color: whitesmoke;
     width: 100vw;
@@ -66,7 +43,7 @@ z-index: 1000;
     border-color: #9356dc transparent #9356dc transparent;
     animation: lds-dual-ring 3s 200ms ease-out forwards;
     animation-delay: 0s; 
-  }  */
+  } 
 
 
 @keyframes lds-dual-ring {
@@ -93,6 +70,8 @@ z-index: 1000;
 
 }
 
+
+/* ------------- */
 
 a {
     text-decoration: none;

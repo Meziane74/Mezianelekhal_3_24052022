@@ -590,7 +590,7 @@ header .cursor_index {
 
 .menu-item {
     
-    box-shadow: 2px 1px 8px -3px #000000;
+    box-shadow: 2px 1px 8px -3px rgba(123, 121, 121, 0.85);
     display: flex;
     background-color: white;
     border-radius: 1rem;
@@ -599,7 +599,7 @@ header .cursor_index {
     animation-delay: 0.1s;
     /* box-shadow: #353535; */
     overflow: hidden;
-    margin: 0.5rem;
+    margin: 1.5rem;
 
 }
 

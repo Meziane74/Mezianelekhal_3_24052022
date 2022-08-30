@@ -389,25 +389,26 @@ h3 {
     font-size: 21px;
 }
 
+
 .heart i {
-    transform: translateY(-10%);
+    z-index: 100;
+    margin-top: -15px;
+   
     color: #000000;
     cursor: pointer;
     font-size: 35px;
     position: absolute;
     right: 1rem;
-    transition: all .2s ease-in-out;
-
+    transition: all 200ms ease-in-out;
+    
 }
 
 
 
 .heart i:hover {
     background: linear-gradient(#9356DC, #FF79DA);
-    color: #fff;
-
     font-weight: 600;
-    transform: scale(1.2);
+    transform: scale(1.10);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -443,7 +444,7 @@ footer p {
 }
 
 .order button {
-    margin: 3rem;
+    /* margin: 3rem; */
     cursor: pointer;
     background-image: linear-gradient(to top, #9356dc, #ff79da);
     color: white;
@@ -485,8 +486,20 @@ header .cursor_index {
     transform: translateY(-50%);
 }
 
+.banner {
+    overflow: hidden;
+    width: 100vw;
+
+}
 
 
+.banner img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 32rem;
+    object-fit: cover;
+    display: block;
+}
 
 .resto__title {
 
@@ -506,7 +519,7 @@ header .cursor_index {
 
 .resto__title i {
     margin-right: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 }
 
 
@@ -516,19 +529,8 @@ header .cursor_index {
 }
 
 
-.banner {
-    overflow: hidden;
-    width: 100vw;
 
-}
 
-.banner img {
-    max-width: 100%;
-    width: 100%;
-    max-height: 32rem;
-    object-fit: cover;
-    display: block;
-}
 
 .resto-main {
 

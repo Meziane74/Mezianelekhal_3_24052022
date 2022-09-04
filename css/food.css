@@ -23,40 +23,17 @@
     align-items: center;
     animation: wrapper 1s 2s forwards;
     z-index: 1000;
-
 }
 
 .lds-dual-ring {
-    /* display: inline-block; */
-    /* width: 80px;
-    height: 80px; 
-       display: block;*/
     width: 64px;
     height: 64px;
     margin: 8px;
     border-radius: 50%;
     border: 6px solid #9356dc;
     border-color: #9356dc transparent #9356dc transparent;
-    animation: lds-dual-ring 3s 200ms ease-out forwards;
+    animation: lds-dual-ring 2s 2s ease-out forwards;
     animation-delay: 0s;
-}
-
-/* .lds-dual-ring:after {
-    content: " ";
- 
-} */
-
-
-@keyframes lds-dual-ring {
-    0% {
-        transform: rotate(0deg);
-
-    }
-
-    100% {
-        transform: rotate(2turn);
-
-    }
 }
 
 @keyframes wrapper {
@@ -70,6 +47,21 @@
     }
 
 }
+
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(3turn);
+
+    }
+}
+
+
 
 
 /* ------------- */
@@ -169,7 +161,7 @@ main .city i {
 }
 
 .explorer button:hover {
-    /* transform: scale(1.02); */
+   
     opacity: 0.7;
     box-shadow: 0px 7px 6px 1px rgb(0 0 255 / 36%);
 }
@@ -400,7 +392,6 @@ h3 {
     position: absolute;
     right: 1rem;
     transition: all 200ms ease-in-out;
-    
 }
 
 
@@ -428,6 +419,7 @@ footer {
 
 }
 footer p {
+    margin-bottom: 14px
     font-family: "shrikhand";
 }
 
@@ -453,8 +445,6 @@ footer p {
     cursor: pointer;
     transition: all 200ms;
 }
-
-
 
 .order button:hover {
     opacity: 0.7;
@@ -713,9 +703,6 @@ p {
     transition: 0.5s;
 
 }
-
-
-
 
 
 
